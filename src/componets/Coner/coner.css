@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    border-left: 3px solid #222;
+    min-height: 100vh;
+}
+
+.feedback {
+    width: 100%;
+    padding: 70px 30px 80px;
+    text-align: center;
+}
+
+.feedback h1 {
+    color: #245638;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    margin-bottom: 65px;
+}
+
+.feedback-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.feedback-card {
+    width: 33.333%;
+    min-height: 190px;
+    padding: 20px;
+    text-align: left;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.feedback-card.active {
+    background: #bdeed1;
+    border-radius: 3px;
+}
+
+.quote {
+    font-family: Georgia, serif;
+    color: #245638;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.feedback-card h3 {
+    color: #245638;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    margin: 12px 0 20px;
+}
+
+.feedback-card p {
+    color: #666;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.feedback-card.active p {
+    color: #244b35;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 75px;
+}
+
+.buttons button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #fff;
+    color: #245638;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.buttons button:last-child {
+    background: #bdeed1;
+}
+
+.buttons button:hover {
+    background: #245638;
+    color: white;
+}
+
